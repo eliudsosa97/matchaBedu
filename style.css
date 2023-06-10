@@ -1,6 +1,7 @@
 h1 {
     color: #161415;
     text-align: center;
+    font-size: 60px;
 }
 p {
     color: #46484c;
@@ -136,4 +137,91 @@ li {
     border-radius: 12px;
     background-color: rgb(41, 3, 123);
   }
+
+
+/* brakpoints */
+
+  
+  @media (max-width: 1175px){
+/* body {
+    background-color: yellow;
+}  .fixed-header{
+    background-color: #ff00bb
+    ;
+
+} */
+}
+  @media (max-width: 975px){
+/* body {
+    background-color: rgb(13, 63, 228);  
+}  .fixed-header{
+    background-color: #ff8000
+    ;
+
+} */
+}
+@media (max-width: 575px) {
+    /* body {
+      background-color: rgb(234, 255, 0);
+  
+    } */
+  
+    .fixed-header {
+      display: none;
+    }
+  
+    .main {
+      margin-top: 130px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  
+    .main > img {
+  
+      width: 100%;
+    }
+  
+    .promo {
+      flex-direction: column;
+      max-width: 90%;
+    }
+  
+    
+    .explanatory-video > video {
+      width: 100%;
+    }
+  
+    .publish > h3 {
+      font-size: 25px;
+      line-height: 32px;
+    }
+  
+    .publish > form {
+      flex-direction: column;
+    }
+  
+    .publish > form > div {
+      height: 50px;
+      margin-top: 10px;
+    }
+  
+    .publish > form > div > input {
+      width: 65%;
+    }
+
+    .features {
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding-left: 0;
+        padding-right: 0;
+    }
+  
+  }
+  
+  @media (max-width: 375px){
+/* body {
+    background-color: rgb(0, 0, 0);
+}  */ 
+}
   
