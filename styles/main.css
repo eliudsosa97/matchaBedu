@@ -1,0 +1,108 @@
+.blog {
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+p {
+  font-size: 24px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.parrafo {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* colors */
+/* fonts */
+/* placeholders */
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #135358;
+}
+
+.blog {
+  background-color: #ffffff;
+  max-width: unset;
+  padding: 5% 10%;
+}
+.blog .process-list {
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+.blog .process-list .process {
+  margin-bottom: 25px;
+}
+.blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process-list .process > div > p {
+  color: #135358;
+  margin: 0;
+}
+.blog .process-list .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.blog .process-list .process .process-icon img {
+  height: 100%;
+}
+.blog button {
+  height: auto;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.col {
+  max-width: 20rem;
+}
+
+/* .home .div img {
+    width: 200%;
+} */
+.home div {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.home div img {
+  width: 100%;
+}
+
+.footer {
+  background-color: #ffffff;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.button-primary {
+  background-color: #ffffff;
+  color: #245;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.button-secondary {
+  background-color: rgba(68, 85, 68, 0.1333333333);
+  color: #254876;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=main.css.map */

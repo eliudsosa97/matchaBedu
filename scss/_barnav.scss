@@ -1,0 +1,27 @@
+$color-primary: #ffffff;
+$font-size-main: 24px;
+$d-flex: flex;
+$column50: 50%;
+$d-grid: grid;
+$color-secundary: rgb(79, 176, 236);
+$margin-top: 20px;
+
+.blog {
+  background-color: $color-primary;
+}
+
+h1 {
+  color: $color-primary;
+  font-size: $font-size-main;
+}
+
+p{
+    font-size: $font-size-main;
+}
+
+p{
+  font-size: $font-size-main;
+}
+.parrafo{
+  font-family: 'Courier New', Courier, monospace;
+}
